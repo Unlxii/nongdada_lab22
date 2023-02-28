@@ -23,7 +23,6 @@ int main(){
 	cout << " [1] Sword \n [2] Axes \n [3] Shield \n [4] Armor \n";
 	cout << "Please selet your equipment: ";
 	cin >> eq;
-	// [Missing Code 3] Equip a selected equipment to the hero. 
 
 	if(eq == '1'){
 		hero.equip(&sword);
@@ -71,7 +70,6 @@ int main(){
 			cout << " [1] Sword \n [2] Axes \n [3] Shield \n [4] Armor \n";
 			cout << "Please select your equipment: ";
 			cin >> eq;
-			// [Missing Code 3] Equip a selected equipment to the hero.
 
 	if(eq == '1'){
 		hero.equip(&sword);
